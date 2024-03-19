@@ -1,5 +1,5 @@
 """
-Template for a Nix tool.
+Template for the most basic Nix tool. Runs a function and that's it.
 Key components include:
     - main: entrypoint for tool. Contains interface built with NixGUI (which extends NiceGUI). Purpose is to configure core function arguments
     - core function: performs the main functionality of the tool. Should not contain any UI elements
